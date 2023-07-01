@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  background-image: url('../assets/img/fundoquemsomos.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.banner .filtro {
+  background-color: rgba(255, 255, 255, 0.411);
+  padding: 20px 0;
+  height: 850px;
+}
+
+.interno {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.menu .logo img {
+  width: 15vw;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 50vw;
+  align-items: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #0d001f;
+  font-size: 20px;
+}
+
+.banner .filtro .interno .titulo{
+  padding: 60px 0;
+}
+
+.banner .filtro .interno .titulo h2{
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+.banner .filtro .interno .titulo p{
+  text-align: left;
+  width: 50%;
+  font-size: 1.3vw;
+}
+
+.sub-banner{
+  
+  background-image: url('../assets/img/subfundo-quemsomos.jpg');
+  color: white;
+}
+.sub-banner .filtro{
+  background-color: #270349e7;
+  padding: 60px 0;
+}
+
+.sub-banner h3{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sub-banner h4{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.sub-banner p{
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.seguranca{
+  text-align: center;
+  background-color: #1c0029;
+  
+  
+  background-position: center 70%;
+}
+
+.seguranca .filtro{
+  background-color: #1c0029be;
+  padding: 80px 0;
+}
+
+.seguranca h2{
+  color: white;
+  font-size: 50px;
+  
+}
+
+.seguranca p{
+  color: rgb(214, 214, 6);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.seguranca span{
+  color: white;
+  background-color: #880498;
+  font-size: 35px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.aparelho{
+  
+  background-image: url('../assets/img/fundo-seguranca.jpg');
+  background-position: center 70%;
+  
+}
+
+.aparelho .filtro{
+  background-color: #89049896;
+  padding: 80px 0;
+}
+
+.aparelho h2{
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.aparelho h2 span{
+  font-weight: 400;
+}
+
+.aparelho p{
+  color: white;
+  font-size: 26px;
+  max-width: 500px;
+  background-color: #1c0029;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.aparelho .buttons{
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aparelho .buttons button{
+  width: 220px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.aparelho .buttons button.button{
+  background-color: white;
+  color: black;
+}
+
+footer{
+
+}
+
+footer .interno .sob{
+  display: flex;
+  padding: 20px 0;
+}
+
+footer .interno .sob .esquerda{
+  width: 33%;
+}
+
+footer .interno .sob ul{
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+footer .interno .sob ul li{
+  margin-bottom: 20px;
+}
+
+footer .interno .sob ul li a{
+  text-decoration: none;
+}
+
+footer .interno .sob .logo img{
+  width: 400px;
+}
+
+footer .interno .sob .meio{
+  width: 33%;
+}
+
+footer .interno .sob .direita{
+  width: 33%;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu .logo img {
+    width: 30vw;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .banner .filtro {
+    background-color: rgba(255, 255, 255, 0.719);
+    height: 85vw;
+  }
+
+  .banner .filtro .interno .titulo{
+    padding: 2vw 0;
+  }
+
+  .banner .filtro .interno .titulo h2{
+    font-size: 6vw;
+    margin-bottom: 2vw;
+  }
+
+  .banner .filtro .interno .titulo p{
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .sub-banner h3{
+    font-size: 5vw;
+  }
+
+  .sub-banner h4{
+    font-size: 4vw;
+  }
+
+  .sub-banner p{
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .conceito .imagem{
+    padding: 30vw 10vw;
+  }
+
+  .banner-novo-sistema .interno{
+    
+  }
+
+  .banner-novo-sistema .interno .sub h2{
+    font-size: 5vw
+  }
+
+  .seguranca h2{
+    font-size: 5vw;
+  }
+  
+  .seguranca p{
+    font-size: 3vw;
+  }
+  
+  .seguranca span{
+    font-size: 3vw;
+  }
+
+  .aparelho h2{
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+  
+  .aparelho p{
+    font-size: 3vw;
+  }
+
+  footer .interno .sob{
+    flex-wrap: wrap;
+  }
+
+  footer .interno .sob .esquerda{
+    width: 100%;
+  }
+
+  footer .interno .sob .meio{
+    width: 50%;
+  }
+
+  footer .interno .sob .direita{
+    width: 50%;
+  }
+}

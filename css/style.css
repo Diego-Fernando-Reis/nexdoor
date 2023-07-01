@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  background-image: url('../assets/img/background-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.banner .filtro {
+  background-color: #1c0029a4;
+  padding: 20px 0;
+  height: 850px;
+}
+
+.banner .filtro .interno {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.interno {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .logo img {
+  width: 350px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 50vw;
+  align-items: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.banner .filtro .interno .texto-logo img {
+  max-width: 700px;
+}
+
+.banner .filtro .interno h1{
+  font-size: 30px;
+  color: white;
+}
+
+.sub-banner{
+  background-color: #1c0029;
+  padding: 20px 0;
+  color: white;
+}
+
+.sub-banner span{
+  color: #a122b1;
+  text-decoration: underline;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.produto{
+  text-align: center;
+}
+
+.produto .interno{
+  padding: 80px;
+}
+
+.produto .interno .texto .barra{
+  max-width: 650px;
+  border-bottom: 2px solid #a022b180;
+  margin: 20px auto;
+}
+
+.produto .interno .texto h2{
+  color: #020e2f;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.produto .interno .sub-texto{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.produto .interno .carrossel{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card h3{
+  margin-bottom: 15px;
+}
+
+.produto .interno .carrossel .card-interno{
+  background-color: #e1cdff;
+  padding: 20px;
+  border-bottom: 20px solid #570d9c;
+  border-radius: 10px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.produto .interno .carrossel .card-interno img{
+  background-color: black;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.produto .interno .carrossel .card-interno p{
+  text-align: left;
+}
+
+.produto .interno .carrossel .card-interno span{
+  text-align: left;
+  width: 100%;
+  color: #880498;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.conceito{
+  padding: 60px 0;
+}
+
+.conceito .texto h2{
+  font-size: 32px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: #570d9c;
+  margin-bottom: 10px;
+}
+
+.conceito .texto .barra{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  background-color: #570d9c;
+}
+
+.conceito .texto p{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.conceito .imagem{
+  background-image: url('../assets/img/banner-condominio.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+  padding: 350px 200px;
+}
+
+.conceito .imagem h4{
+  color: white;
+  border: 4px solid white;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+.conceito .imagem p{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.banner-novo-sistema{
+  background-color: #880498;
+  
+}
+
+.banner-novo-sistema .interno{
+  display: flex;
+  align-items: end;
+  padding: 40px 0;
+  padding-top: 120px;
+}
+
+.banner-novo-sistema .interno .sub h2{
+  color: white;
+  font-size: 50px
+}
+
+.banner-novo-sistema .interno .sub span{
+  font-weight: 400;
+}
+
+.banner-novo-sistema .interno .sub button{
+  width: 180px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  border: none;
+}
+
+.seguranca{
+  text-align: center;
+  background-color: #1c0029;
+  
+  
+  background-position: center 70%;
+}
+
+.seguranca .filtro{
+  background-color: #1c0029be;
+  padding: 80px 0;
+}
+
+.seguranca h2{
+  color: white;
+  font-size: 50px;
+  
+}
+
+.seguranca p{
+  color: rgb(214, 214, 6);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.seguranca span{
+  color: white;
+  background-color: #880498;
+  font-size: 35px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.aparelho{
+  
+  background-image: url('../assets/img/fundo-seguranca.jpg');
+  background-position: center 70%;
+  
+}
+
+.aparelho .filtro{
+  background-color: #89049896;
+  padding: 80px 0;
+}
+
+.aparelho h2{
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.aparelho h2 span{
+  font-weight: 400;
+}
+
+.aparelho p{
+  color: white;
+  font-size: 26px;
+  max-width: 500px;
+  background-color: #1c0029;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.aparelho .buttons{
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aparelho .buttons button{
+  width: 220px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.aparelho .buttons button.button{
+  background-color: white;
+  color: black;
+}
+
+footer{
+
+}
+
+footer .interno .sob{
+  display: flex;
+  padding: 20px 0;
+}
+
+footer .interno .sob .esquerda{
+  width: 33%;
+}
+
+footer .interno .sob ul{
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+footer .interno .sob ul li{
+  margin-bottom: 20px;
+}
+
+footer .interno .sob ul li a{
+  text-decoration: none;
+}
+
+footer .interno .sob .logo img{
+  width: 400px;
+}
+
+footer .interno .sob .meio{
+  width: 33%;
+}
+
+footer .interno .sob .direita{
+  width: 33%;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu .logo img {
+    width: 30vw;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .banner .filtro .interno .texto-logo img {
+    width: 80vw;
+  }
+
+  .banner .filtro {
+    height: 60vw;
+  }
+
+  .conceito .imagem{
+    padding: 30vw 10vw;
+  }
+
+  .banner-novo-sistema .interno{
+    
+  }
+
+  .banner-novo-sistema .interno .sub h2{
+    font-size: 5vw
+  }
+
+  .seguranca h2{
+    font-size: 5vw;
+  }
+  
+  .seguranca p{
+    font-size: 3vw;
+  }
+  
+  .seguranca span{
+    font-size: 3vw;
+  }
+
+  .aparelho h2{
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+  
+  .aparelho p{
+    font-size: 3vw;
+  }
+
+  footer .interno .sob{
+    flex-wrap: wrap;
+  }
+
+  footer .interno .sob .esquerda{
+    width: 100%;
+  }
+
+  footer .interno .sob .meio{
+    width: 50%;
+  }
+
+  footer .interno .sob .direita{
+    width: 50%;
+  }
+}

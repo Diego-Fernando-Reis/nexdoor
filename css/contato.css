@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  background-image: url('../assets/img/vista-lateral-do-homem-usando-smartphone.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.banner .filtro {
+  padding: 20px 0;
+  height: 850px;
+}
+
+.interno {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .logo img {
+  width: 15vw;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 50vw;
+  align-items: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.banner .filtro .interno .conteudo .titulo{
+  margin-bottom: 30px;
+}
+
+.banner .filtro .interno .conteudo .titulo h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+.banner .filtro .interno .conteudo .titulo p{
+  font-size: 22px;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.banner .filtro .interno .conteudo .conteudo-interno{
+  width: 100%;
+}
+
+.banner .filtro .interno .conteudo .conteudo-interno form{
+  width: 50%;
+  text-align: left;
+}
+
+.banner .filtro .interno .conteudo .conteudo-interno form label{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.banner .filtro .interno .conteudo .conteudo-interno form input{
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-bottom: 10px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+}
+
+.banner .filtro .interno .conteudo .conteudo-interno form textarea{
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 150px;
+  resize: none;
+  border: none;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.banner .filtro .interno .conteudo .conteudo-interno form button{
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: blueviolet;
+}
+
+.seguranca{
+  text-align: center;
+  background-color: #1c0029;
+  
+  
+  background-position: center 70%;
+}
+
+.seguranca .filtro{
+  background-color: #1c0029be;
+  padding: 80px 0;
+}
+
+.seguranca h2{
+  color: white;
+  font-size: 50px;
+  
+}
+
+.seguranca p{
+  color: rgb(214, 214, 6);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.seguranca span{
+  color: white;
+  background-color: #880498;
+  font-size: 35px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.aparelho{
+  
+  background-image: url('../assets/img/fundo-seguranca.jpg');
+  background-position: center 70%;
+  
+}
+
+.aparelho .filtro{
+  background-color: #89049896;
+  padding: 80px 0;
+}
+
+.aparelho h2{
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.aparelho h2 span{
+  font-weight: 400;
+}
+
+.aparelho p{
+  color: white;
+  font-size: 26px;
+  max-width: 500px;
+  background-color: #1c0029;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.aparelho .buttons{
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aparelho .buttons button{
+  width: 220px;
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.aparelho .buttons button.button{
+  background-color: white;
+  color: black;
+}
+
+footer{
+
+}
+
+footer .interno .sob{
+  display: flex;
+  padding: 20px 0;
+}
+
+footer .interno .sob .esquerda{
+  width: 33%;
+}
+
+footer .interno .sob ul{
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+footer .interno .sob ul li{
+  margin-bottom: 20px;
+}
+
+footer .interno .sob ul li a{
+  text-decoration: none;
+}
+
+footer .interno .sob .logo img{
+  width: 400px;
+}
+
+footer .interno .sob .meio{
+  width: 33%;
+}
+
+footer .interno .sob .direita{
+  width: 33%;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu .logo img {
+    width: 30vw;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .banner .filtro .interno .texto-logo img {
+    width: 80vw;
+  }
+
+  .banner .filtro {
+    height: 140vw;
+  }
+
+  .banner .filtro .interno .conteudo .titulo h2{
+    font-size: 8vw;
+  }
+  
+  .banner .filtro .interno .conteudo .titulo p{
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .banner .filtro .interno .conteudo .conteudo-interno form{
+    width: 100%;
+  }
+
+  .conceito .imagem{
+    padding: 30vw 10vw;
+  }
+
+  .banner-novo-sistema .interno{
+    
+  }
+
+  .banner-novo-sistema .interno .sub h2{
+    font-size: 5vw
+  }
+
+  .seguranca h2{
+    font-size: 5vw;
+  }
+  
+  .seguranca p{
+    font-size: 3vw;
+  }
+  
+  .seguranca span{
+    font-size: 3vw;
+  }
+
+  .aparelho h2{
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+  
+  .aparelho p{
+    font-size: 3vw;
+  }
+
+  footer .interno .sob{
+    flex-wrap: wrap;
+  }
+
+  footer .interno .sob .esquerda{
+    width: 100%;
+  }
+
+  footer .interno .sob .meio{
+    width: 50%;
+  }
+
+  footer .interno .sob .direita{
+    width: 50%;
+  }
+}
